@@ -1,0 +1,21 @@
+1. Break the problem into functionality based components.
+2. At head in the main program, provide a description of how any custom
+   packages influence the running of the main program.
+2. Add author, description for projects in intro header section.
+3. Naming convention for Jupyter Notebooks follows:
+  month-date-year-githubusername-description-of-notebook-code
+  7-31-2018-joesmith-eda-for-bikeshare-usership
+
+4. Naming standards for custom modules should be all lowercase, descriptive
+  no more than two words example:
+  import plot_maker  is okay
+  import plot_maker_for_this_thing is bad
+  import ploter is better
+
+5. Variable names should be clear and descriptive
+6. Column names should be descriptive, all lowercase and have no spaces,
+   example:
+   Date_closed is not wanted
+   date closed is bad
+   Date Closed is worse
+   date_closed  is better
